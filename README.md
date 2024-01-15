@@ -7,7 +7,10 @@ Sample graphs (all can be found in the `SQL_graphs` and `optimizer_graphs` direc
 
 ### Sources/Referenced Information
 
-https://www.investopedia.com/ask/answers/122414/what-moving-average-convergence-divergence-macd-formula-and-how-it-calculated.asp 
+https://www.investopedia.com/ask/answers/122414/what-moving-average-convergence-divergence-macd-formula-and-how-it-calculated.asp
+
 https://keras.io/guides/sequential_model/ 
+
 https://medium.com/@zahmed333/stock-price-prediction-with-keras-df87b05e5906
+
 https://finance.yahoo.com/quote/GOOG?p=GOOG&.tsrc=fin-srch 
