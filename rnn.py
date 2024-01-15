@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
-from tensorflow import keras
 from keras.models import Sequential
 from keras.layers import LSTM, Dense, Dropout
 
@@ -64,7 +63,7 @@ plt.figure()
 plt.plot(dates_, y_actual, label='Actual Closing Price')
 plt.plot(dates_, predicted_normal_scale, label='Predicted Closing Price')
 plt.xticks(dates_[::25])
-plt.title('Google Stock Price Prediction - Adam Optimizer')
+plt.title('Google Stock Price Prediction - SGD Optimizer')
 plt.xlabel('Date')
 plt.ylabel('Price ($)')
 plt.legend()
